@@ -1,0 +1,43 @@
+# The Big Idea
+
+This project aims to create code that gathers, processes, and displays detailed statistics from the Masters Tournament. The code will cover various topics such as player performance, historical trends, scoring averages, and leaderboards, utilizing web scraping and/or available APIs to fetch real-time or archived data. The MVP will focus on a functional interface that presents key tournament stats in a clear format with basic visualizations, while the stretch goal includes advanced analytics features like trend predictions, interactive dashboards, and comprehensive comparative data analyses.
+
+## Learning Objectives
+
+As a team, our objective is to deepen our knowledge in Python coding, specifically in how to extract data, analyze it, and display it visually. Ultimately, we aim to build a robust tool that not only meets our functional requirements but also serves as a significant learning experience in applying advanced programming and data analytics techniques to a real-world sports dataset.
+
+### Individual Goals
+
+- **Tomas:** My goal is to become better in the interface part of the project, specifically learning how to efficiently display the data we scrape.
+- **Delfina:** My goal is to learn the best ways to analyze and filter data that is extracted from outside sources.
+
+## Implementation Plan
+
+Our approach begins with setting up a Python development environment equipped with essential libraries including [Requests](https://docs.python-requests.org) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) (we asked ChatGPT for the best webpage for this) for web scraping, [Pandas](https://pandas.pydata.org/) for data manipulation, and [matplotlib](https://matplotlib.org/) for creating visualizations. We will identify reliable data sources for Masters Tournament statistics, whether through official APIs or publicly available datasets, and design modular components to separately handle data retrieval, processing, and visualization tasks.
+
+The development process will be iterative—initial prototypes will be built and refined based on testing and feedback, and we will continuously investigate more sophisticated methodologies and libraries to ensure scalability and feature enhancement as the project evolves.
+
+## Project Schedule
+
+- **Week 1:** Research, requirement analysis, and setup of the development environment.
+- **Week 2:** Data extraction and initial data processing functions.
+- **Week 3:** Constructing and integrating data visualization modules.
+- **Week 4:** Testing, debugging, and incorporating user feedback.
+- **Week 5 (if time allows):** Integrating additional features and final refinements to polish the MVP.
+
+## Collaboration Plan
+
+To ensure efficient team collaboration, we will adopt an agile development approach with regular stand-up meetings and sprint planning. The project will be divided into clear modules—data extraction, processing, and visualization—with each team member taking primary responsibility for specific areas while also engaging in pair programming sessions and code reviews to maintain consistency, quality, and a unified codebase. This structure supports both individual learning goals and the team's shared objectives by facilitating continuous knowledge exchange and iterative improvements.
+
+## Risks and Limitations
+
+The most significant risk to this project is the potential unavailability or inconsistency of reliable data sources for the Masters Tournament, which could impede our ability to gather accurate statistics and affect the overall functionality of the tool. Additionally, challenges such as integrating diverse modules, managing data quality issues, and dealing with unforeseen complexities in real-time data processing might arise. To mitigate these risks, we plan to:
+
+- Identify multiple data sources early on.
+- Establish fallback strategies.
+- Maintain a flexible code architecture that can be easily adapted as new challenges arise during the development process.
+
+## Additional Course Content
+
+Supplementary course materials on advanced web scraping techniques, API integration, and sophisticated data visualization in Python would be incredibly valuable for this project. Additionally, resources focused on agile project management methodologies, version control best practices, and collaborative coding strategies would further enhance our ability to efficiently develop and deploy the tool. These resources will support our technical challenges and improve our overall project management and team collaboration, ensuring that we are equipped with both the theoretical knowledge and practical skills needed for success.
+.
