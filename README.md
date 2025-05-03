@@ -1,2 +1,2 @@
-# Tomas-Delfina-Project
-Delfina de Prat Gay and Tomas Amaya
+# Tomas-Project
+ Tomas Amaya
